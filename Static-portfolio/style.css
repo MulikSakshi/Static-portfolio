@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    background-color: rgb(234, 224, 224);
+}
+
+.header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    line-height: 1.4;
+}
+
+.header nav a:hover {
+    color: rgb(231, 203, 167);
+}
+
+#about {
+    margin-top: 8px;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+.projects {
+    margin-top: 10px;
+}
+
+.projectDiv {
+    background: white;
+    margin: 15px 0;
+    padding: 10px;
+    border-left: 4px solid #00b894;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 98%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+input[required] {
+    border: 2px solid #00b894;
+}
+
+textarea {
+    width: 98%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    background: #00b894;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #019875;
+}
+
+footer {
+   margin-top: 10px;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
